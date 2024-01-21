@@ -1,0 +1,81 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-8,
+.col-md-7,
+.col-lg-7,
+.col-xl-6,
+.col-lg-5,
+.col-xl-5 {
+  padding: 0;
+}
+
+.form-outline {
+  position: relative;
+}
+
+.form-outline input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.form-outline label {
+  position: absolute;
+  top: 0;
+  left: 0.75rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #6c757d;
+  background-color: #ffffff;
+  transition: transform 0.15s ease-out, font-size 0.15s ease-out;
+}
+
+.form-outline input:focus + label,
+.form-outline input:not(:placeholder-shown) + label {
+  transform: translateY(-120%) scale(0.85);
+  font-size: 0.8rem;
+}
+
+.form-check-label {
+  font-weight: normal;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.divider {
+  border-bottom: 1px solid #ced4da;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #55acee;
+}
